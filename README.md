@@ -1,5 +1,5 @@
 # KiCad-OBC-Blank
-Starter files for https://github.com/UNEPG/fritzing-obc
+Starter files for https://github.com/UNEPG/KiCad-OBC
 
 ## Working with the Files
 
