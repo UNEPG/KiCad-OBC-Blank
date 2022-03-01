@@ -11,13 +11,13 @@ Starter files for https://github.com/UNEPG/KiCad-OBC
 
 4. As previous modules had already introduced KiCad and it's essential tools, we are not going to repeat the same process, instead, we are going to focus on creating the PCB using existing component libraries.
 
-5. We have already provided the main components that are going to be utilized in this project, and they are the **Raspberry Pi** MPU, **HTS221** humidity and temperature sensor, **LSM9DS1** 9-axis accelerometer, gyroscope and magnetometer. we also included some **capacitors**, **mounting holes** and **power symbols** to use.  (components should be highlighted in the video with rectangle areas)
+5. We have already provided the main components that are going to be utilized in this project, and they are the **Raspberry Pi** MPU, **HTS221** humidity and temperature sensor, **LPS25H** pressure sensor. we also included some **capacitors**, **mounting holes** and **power symbols** to use.  (components should be highlighted in the video with rectangle areas)
 
 6. Let's utilize the Raspberry Pi MPU first.  (End of first video here)
 
 7. [PPT] We need 5V, 3.3V power supply, Ground, I2C and UART lines from the raspberry Pi. 
 
-8. [VIDEO2] Let's create global labels on all the pins we needed. we will start from the 3.3V, then the I2C, and then the Ground Pins. All the GND pins from the MPU should be connected to the ground.
+8. [VIDEO2] Let's create global labels on all the pins we needed. we will start from the 3.3V and 5V, then the I2C and UART, and then the Ground Pins. All the GND pins from the MPU should be connected to the ground.
 
 9. [Documentation Scrolling Video(3)] HTS221 is a humidity and temperature sensor, requires 1.7 to 3.6 volt power supply and communicates with the host device using either SPI or the I2C interface. 
 
