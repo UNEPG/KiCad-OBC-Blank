@@ -39,11 +39,12 @@ Starter files for https://github.com/UNEPG/KiCad-OBC
     2. Let's assign foot prints for our components. 
     3. Open the PCB editor, update the PCB from schematics and also create a rectangle PCB shape.
     4. and move the component's position to the proper locations. 
-    5. Now wire all the connections between RPi and the sensors one by one.
+    4. you can turn off the ‘silks screen’ layer or remove the text to the ‘F.Fab’ layer if you want.
+    5. Now wire all the connections between RPi and the sensors one by one. Start from UART pins, and then the I2C lines, then connect all the power and ground pins.
     6. You can assign 3D for the footprints if you want, I will assign 3D to the Raspberry, and the sensors.
     7. Let's see the result in 3D view. 
     11. By doing so, you have already created your first PCB in KiCad.
-
     
-
+    
+    
     
