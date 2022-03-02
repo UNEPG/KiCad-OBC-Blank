@@ -44,7 +44,8 @@ Starter files for https://github.com/UNEPG/KiCad-OBC
     6. you can turn off the ‘silks screen’ layer or remove the text to the ‘F.Fab’ layer if you want.
     7. Now wire all the connections between RPi and the sensors one by one. Start from UART pins, and then the I2C lines, then connect all the power and ground pins. It's the same process that you've already tried whiling connecting the wires on Fritzing, just be patient and connect them all one by one.
     8. You can assign 3D models for the footprints if you want, I will assign 3D to the Raspberry, and the sensors. I've already prepared all the 3D models for you and saved inside the "Parts" folder. 
-    9. Let's see the result in 3D view. 
+    9. In some cases, you also need to adjust the orientation of the 3D model.
+    10. Let's see the result in 3D view. 
     11. By doing so, you have already created your first PCB in KiCad.
     
     
